@@ -178,7 +178,7 @@ In this helper function we use a filter to find all the categories that start wi
 		if starts_with:
 			cat_list = Category.objects.filter(name__istartswith=starts_with)
 		
-		if max_results > 0:
+		if cat_list and max_results > 0:
 			if cat_list.count() > max_results:
 				cat_list = cat_list[:max_results]
 			
@@ -199,7 +199,7 @@ Using the ``get_category_list`` function we can now create a view that returns t
 		
 		cat_list = get_category_list(8, starts_with)
 			
-		return render(request, 'rango/category_list.html', {'cat_list': cat_list })
+		return render(request, 'rango/cats.html', {'cat_list': cat_list })
 
 Note here we are re-using the ``rango/cats.html`` template :-). 
 
