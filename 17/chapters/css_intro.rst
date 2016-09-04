@@ -107,7 +107,7 @@ In 1996, Microsoft started the `Core fonts for the Web <http://en.wikipedia.org/
 
 Colours and Backgrounds
 -----------------------
-Colours are important in defining the look and feel of your website. You can change the colour of any element within your webpage, ranging from background colours to borders and text. In this book, we make use of words and *hexadecimal colour codes* to choose the colours we want. As you can see from the list of basic colours in Figure :num:`fig-css-colours`, you can supply either a *hexadecimal* or *RGB (red-green-blue)* value for the colour you want to use. You can also `specify words to describe your colours <http://www.w3schools.com/cssref/css_colornames.asp>`_, such as ``green``, ``yellow`` or ``blue``.
+Colours are important in defining the look and feel of your website. You can change the colour of any element within your webpage, ranging from background colours to borders and text. In this book, we make use of words and *hexadecimal colour codes* to choose the colours we want. As you can see from the list of basic colours in Figure :num:`fig-css-colours`, you can supply either a *hexadecimal* or *RGB (red-green-blue)* value for the colour you want to use. You can also `specify words to describe your colours <http://www.w3schools.com/colors/colors_names.asp>`_, such as ``green``, ``yellow`` or ``blue``.
 
 .. warning:: You must take great care when picking colours to use on your webpages. Don't select colours that don't contrast well - people simply won't be able to read them! There are many websites available that can help you pick out a good colour scheme - try `colorcombos.com <http://www.colorcombos.com/>`_ for starters.
 
